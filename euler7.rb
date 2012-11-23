@@ -11,7 +11,7 @@ end
 def find_prime(target)
 
   count = 3
-  index = 1 # start at 1 since we are skipping the number 2 (the first prime numer)
+  index = 1 # start at 1 since we are skipping the number 2 (the first prime number)
 
   while true
     index += 1 if is_prime?(count)
